@@ -1,0 +1,121 @@
+head {
+    display: none;
+}
+
+body {
+    display: block;
+    text-align: center;
+    margin: 0;
+    font-family: fantasy;
+}
+
+.col-lg-6 {
+    position: relative;
+}
+
+.col-lg-6 p {
+    position: absolute;
+}
+
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: 700;
+}
+
+.no-answer {
+    height: 200px;
+    width: 200px;
+}
+
+.wondering {
+    height: 200px;
+    width: 200px;
+}
+
+
+.Socials {
+    margin-top: 0px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-bigbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-bigbox p {
+    width: 40%;
+}
+
+.contact-bigbox .learn {
+    height: 70px;
+}
+
+.contact-me {
+    width: 500;
+    border-radius: 50%;
+}
+
+.Socials button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 120px;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background: rgba(159, 175, 255, 0.806);
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Github:hover {
+    background-color: blanchedalmond;
+}
+
+.Twitter:hover {
+    background-color: aqua;
+}
+
+.Linkedin:hover {
+    background-color: blueviolet;
+}
+
+.Socials img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.Socials a {
+    text-decoration: none;
+}
+
+.no-answer {
+    width: 500;
+    border-radius: 50%;
+}
+
+.Luka {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.professional{
+    background-color: floralwhite;
+    text-align: center;
+}
